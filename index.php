@@ -3,13 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap 5 crashcourse</title>
+    <title>The Prograstinator</title>
     <link rel="stylesheet" href="css/bootstrap.css">
 </head>
-<body> 
+<body>
     <?php require "component/Header.html" ?>
-
-
+    <?php require "component/Footer.html" ?>
 
 
       
