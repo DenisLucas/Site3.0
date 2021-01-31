@@ -9,15 +9,15 @@
 <body>
     <?php require "component/Header.html" ?>
     <?php header('Content-Type: text/html; charset=utf-8') ?>
-    <div class="container-sm">
-        <div class="row">
-            <div class="col-sm-3">
+    <div class="container-sm ">
+        <div class="row ">
+            <div class="col-sm-3 bg-light">
                 <img class="img-thumbnail" src="curriculo/20210130_171102.jpg" class="center">
                 <p class="text-center"><i>contatos:</i></p>
                 <a href="https://www.linkedin.com/in/denis-lucas-valverde-silva-5495321a3/" target="blank"><p class="text-center">Linkedin</p></a>
                 <a href="https://github.com/DenisLucas" target="blank"><p class="text-center">GitHub</p></a>
             </div>
-            <div class="col-sm-9">
+            <div class="col-sm-9 bg-light">
                 <h2>Denis Lucas valverde silva</h2>                
                 <h5>O prograstinator:</h5>
                 <p><i>Onde programação é minha procrastinação.</i></p>
@@ -33,6 +33,7 @@
                 <a href="curriculo/mpdf.pdf" target="blank">Certificado de fundamentos em cloud computing</a>
                 <p><i>um certificado na area de fundamentos de cloud pela TIexames</i></p>
         </div>
+        <hr>
     </div>
     
     <script src="https://unpkg.com/@popperjs/core@2.4.0/dist/umd/popper.min.js"></script>
