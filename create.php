@@ -2,7 +2,7 @@
 <html>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>The Prograstinator</title>
+    <title>Create</title>
     <link rel="stylesheet" href="css/bootstrap.css">
 
     <script src="js/bootstrap.js"></script>  
@@ -13,7 +13,7 @@
 
     <?php require "component/Header.html" ?>
     <div class="container-sm">
-        <form action="contato.php" method="post">
+        <form action="create.php" method="post">
             Titulo: <input type="text" name="Titulo" maxlength="255">
             <br>
             Descrição: <textarea class="form-control" name="descrição" rows="3" maxlength="200"></textarea>
