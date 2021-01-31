@@ -1,7 +1,7 @@
 <?php 
      $host = 'localhost';
      $user = 'root';
-     $password = 'Damasco242#';
+     $password = '--------';
      $dbname = 'Projects';
      //Set dsn
      $dsn ='mysql:host='. $host .';dbname='. $dbname;
