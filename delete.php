@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Delete</title>
+    <title>TPR</title>
     <script src="js/bootstrap.js"></script>  
     <script src="https://unpkg.com/@popperjs/core@2.4.0/dist/umd/popper.min.js"></script>
     <link rel="stylesheet" href="css/bootstrap.css">
@@ -17,6 +17,8 @@
     <?php require 'component/Header.html'?>
     <?php require 'component/database.php'?>
     <div class="container-sm">
+        <h1 class="project">Delete</h1>
+        <hr>
         <?php
                 header('Content-Type: text/html; charset=utf-8');
                 if(isset($_GET['id'])){

@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Prograstinator</title>
+    <title>TPR</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     
     <style>
@@ -13,9 +13,12 @@
     </style>
 </head>
 <body>
+
     <?php require 'component/Header.html'?>
     <?php require 'component/database.php'?>
     <div class="container-sm">
+        <h1 class="project">Update</h1>
+        <hr>
         <?php 
             header('Content-Type: text/html; charset=utf-8');
             echo '<div class="row-md bg-light">';

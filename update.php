@@ -2,7 +2,7 @@
 <html>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Create</title>
+    <title>TPR</title>
     <link rel="stylesheet" href="css/bootstrap.css">
 
     <script src="js/bootstrap.js"></script>  
@@ -47,14 +47,13 @@
     ?>
     <div class="container-sm">
         <form action="update.php" method="post">
-            Titulo: <input type="text" name="Titulo" value="<?php echo $titulo ?>" maxlength="255">
-            <br>
-            Descrição: <textarea class="form-control" name="descrição" value= rows="3" maxlength="200"><?php echo $desc ?></textarea>
-            <br>
-            Conteudo: <textarea class="form-control" name="Conteudo"  rows="5"><?php echo $cont ?></textarea>
-            <input type="hidden" name="id" value="<?php echo $id; ?>" />
-            <br>
-            <input type="submit" name="submit">
+            <div class="form-group">
+                Titulo: <input type="text" class="form-control" name="Titulo" value="<?php echo $titulo ?>" maxlength="255">
+                Descrição: <textarea class="form-control" name="descrição" value= rows="3" maxlength="200"><?php echo $desc ?></textarea>
+                Conteudo: <textarea class="form-control" name="Conteudo"  rows="5"><?php echo $cont ?></textarea>
+                <input type="hidden" name="id" value="<?php echo $id; ?>" />
+                <input type="submit" name="submit">
+            </div>
         </form>
     </div>
     
